@@ -1,0 +1,6 @@
+.whatWeDo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top right, rgba(108, 99, 255, 0.5), rgba(255, 101, 132, 0.5));
+}

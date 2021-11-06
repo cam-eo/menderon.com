@@ -1,0 +1,64 @@
+.aboveTheFold__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.aboveTheFold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.aboveTheFold__leftContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    /* background-color: burlywood; */
+}
+
+.aboveTheFold__leftContainer__splashBackground{
+    object-fit: contain;
+    max-width: 80%;
+    margin: 80px;
+}
+
+.aboveTheFold__leftContainer__stars1{
+    position: absolute;
+    object-fit: contain;
+    max-width: 25em;
+    /* transition: transform 1s ease-in; */
+}
+
+.aboveTheFold__leftContainer__stars2{
+    position: absolute;
+    object-fit: contain;
+    max-width: 25em;
+}
+
+.aboveTheFold__leftContainer__lostMan{
+    position: absolute;
+    object-fit: contain;
+    max-width: 25em;
+}
+
+
+.aboveTheFold__rightContainer{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.aboveTheFold__rightContainer__headline{
+    font-size: 60px;
+}
+
+.aboveTheFold__rightContainer__subline{
+    font-size: 30px;
+    padding-left: 3px;
+}

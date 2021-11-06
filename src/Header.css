@@ -1,0 +1,35 @@
+.header__container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+.header__leftContainer{
+    display: flex;
+}
+
+.header__rightContainer{
+    display: flex;
+}
+
+.header__rightContainer__navItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header__leftContainer__logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
