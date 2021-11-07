@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './WorkWithUs.css'
+import Close from '@mui/icons-material/Close';
 
 function WorkWithUs() {
 
@@ -18,35 +19,58 @@ function WorkWithUs() {
         })
     }
 
+    function handleClose(e){
+        e.preventDefault()
+
+        setButtonStyle({
+            display: 'flex'
+        })
+
+        setFormStyle({
+            display: 'none'
+        })
+    }
 
     return (
         <div className='workwithus'>
             <div className='workwithus__innerContainer'>
                 <div className='workwithus__leftContainer'>
                     <h1 className='workwithus__header'>Work with us</h1>
-                    <span>We love as much (or maybe a bit more) than our clients.
-                        <br />Let us bring your project to life together.
-                        <br />
-                        <br />If you didn't notice yet, there's a buttom on the right ;)</span>
+                    <div className='workwithus__message'>
+                        <span>We love </span>
+                            <span className='workwithus__message__highlight'>#tech</span>
+                            as much (or maybe a bit more) than our clients.
+                    </div>
+                    <div className='workwithus__message'>
+                        <span>Let us bring your project to life together.
+                            <br />
+                            <br />
+                            If you didn't notice yet, there's a buttom on the right ;)
+                        </span>
+                    </div>
                 </div>
                 <div className='workwithus__rightContainer'>
                     <div className='workwithus__rightContainer__button' onClick={handleClick} style={buttonStyle}>Let's Talk ></div>
                     <form className='workwithus__rightContainer__form' style={formStyle}>
-                    <label htmlFor='name'>
-                        Name:
-                        <input type="text" name="name" />
+                    <div className='workwithus__rightContainer__form__closeContainer'>
+                        <div onClick={handleClose} className='workwithus__rightContainer__form__closeContainer__close'>
+                            <Close />
+                        </div>
+                    </div>
+                    <label className='workwithus__rightContainer__form__label' htmlFor='name'>
+                        Name
+                        <input className='workwithus__rightContainer__form__input' type="text" name="name" />
                     </label>
-                    <label htmlFor='name'>
-                        Name:
-                        <input type="text" name="name" />
+                    <label className='workwithus__rightContainer__form__label' htmlFor='email'>
+                        Email
+                        <input className='workwithus__rightContainer__form__input' type="email" name="email" />
                     </label>
-                    <label htmlFor='name'>
-                        message:
-                        <textarea>
-                        Hello there, this is some text in a text area
+                    <label className='workwithus__rightContainer__form__label' htmlFor='name'>
+                        Message
+                        <textarea className='workwithus__rightContainer__form__message' placeholder='Type message here'>
                         </textarea>
                     </label>
-                    <input type="submit" value="Submit" />
+                    <input className='workwithus__rightContainer__form__button' type="submit" value="Submit" />
                     </form>
                 </div>
             </div>

@@ -56,7 +56,7 @@ function AboveTheFold() {
                 </div>
                 <div className='aboveTheFold__rightContainer'>
                     <span className='aboveTheFold__rightContainer__headline'>Changing the Human Experience</span>
-                    <span className='aboveTheFold__rightContainer__subline'>Using <strong>#tech</strong></span>
+                    <span className='aboveTheFold__rightContainer__subline'>Using <strong className='aboveTheFold__rightContainer__subline__highlight'>#tech</strong></span>
                 </div>
             </div>
         </div>
