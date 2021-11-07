@@ -1,6 +1,185 @@
+.whatWeDo__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .whatWeDo{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to top right, rgba(108, 99, 255, 0.5), rgba(255, 101, 132, 0.5));
+    border-radius: 20px;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 1000px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.whatWeDo__redText{
+    color: #ff6584;
+}
+
+.whatWeDo__purpleText{
+    color: #6c63ff;
+}
+
+.whatWeDo__background{
+    position: absolute;
+    z-index: -1;
+    max-width: 1000px;
+    border-radius: 20px;
+}
+
+.whatWeDo__heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    max-width: 1000px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.whatWeDo__itemRowOne{
+    display: flex;
+}
+
+.whatWeDo__itemRowOne__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 155px;
+    animation: wiggle1 2.5s infinite;
+}
+
+.whatWeDo__itemRowOne__item > span{
+    text-align: center;
+    padding: 10px;
+}
+
+.whatWeDo__itemRowOne__item__background{
+    position: absolute;
+    object-fit: contain;
+    width: 150px;
+    z-index: -1;
+}
+
+.whatWeDo__itemRowTwo{
+    display: flex;
+    transform: translate(-76px, -20px);
+}
+
+.whatWeDo__itemRowTwo__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 155px;
+    animation: wiggle2 2.5s infinite;
+}
+
+.whatWeDo__itemRowTwo__item > span{
+    text-align: center;
+    padding: 10px;
+}
+
+.whatWeDo__itemRowTwo__item__background{
+    position: absolute;
+    object-fit: contain;
+    width: 150px;
+    z-index: -1;
+}
+
+.whatWeDo__itemRowThree{
+    display: flex;
+    transform: translate(-76px, -40px);
+}
+
+.whatWeDo__itemRowThree__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 155px;
+    animation: wiggle3 2.5s infinite;
+}
+
+.whatWeDo__itemRowThree__item > span{
+    text-align: center;
+    padding: 10px;
+}
+
+.whatWeDo__itemRowThree__item__background{
+    position: absolute;
+    object-fit: contain;
+    width: 150px;
+}
+
+
+@keyframes wiggle1 {
+    0% { 
+        transform: rotate(0deg); 
+    }
+   20% { 
+       transform: rotate(0deg); 
+    }
+   25% { 
+       transform: rotate(5deg); 
+    }
+   35% { 
+       transform: rotate(-5deg); 
+    }
+    40% { 
+        transform: rotate(0deg); 
+     }
+  100% { 
+      transform: rotate(0deg); 
+    }
+}
+
+@keyframes wiggle2 {
+    0% { 
+        transform: rotate(0deg); 
+    }
+   50% { 
+       transform: rotate(0deg); 
+    }
+   55% { 
+       transform: rotate(5deg); 
+    }
+   65% { 
+       transform: rotate(-5deg); 
+    }
+    70% { 
+        transform: rotate(0deg); 
+        }
+  100% { 
+      transform: rotate(0deg); 
+    }
+}
+
+@keyframes wiggle3 {
+    0% { 
+        transform: rotate(0deg); 
+    }
+   80% { 
+       transform: rotate(0deg); 
+    }
+   85% { 
+       transform: rotate(5deg); 
+    }
+   95% { 
+       transform: rotate(-5deg); 
+    }
+  100% { 
+      transform: rotate(0deg); 
+    }
+}
+
+.whatWeDo__redMoon{
+    position: absolute;
+    max-width: 200px;
+    transform: translate(300px, 120px);
 }

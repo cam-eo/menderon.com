@@ -37,7 +37,7 @@ function AboveTheFold() {
             transform: `translate(0px, 0px)`,
             transition: `transform 400ms ease-in`
         }
-
+        
         setStar1Style(resetStyle)
         setStar2Style(resetStyle)
         setLostManStyle(resetStyle)

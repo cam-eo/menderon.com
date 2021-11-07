@@ -1,8 +1,9 @@
 import './App.css'
-// import Main from './Main.js'
 import Header from './Header.js'
 import AboveTheFold from './AboveTheFold.js'
 import About from './WhatWeDo.js'
+import Clients from './Clients.js'
+import LetsTalk from './WorkWithUs.js'
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Header />
       <AboveTheFold />
       <About />
+      <Clients />
+      <LetsTalk />
     </div>
   );
 }

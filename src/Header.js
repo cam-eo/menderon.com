@@ -11,8 +11,8 @@ function Header() {
                 <div className='header__rightContainer'>
                         <span className='header__rightContainer__navItem'>About</span>
                         <span className='header__rightContainer__navItem'>What we do</span>
-                        <span className='header__rightContainer__navItem'>Projects</span>
-                        <span className='header__rightContainer__navItem'>Customer Stories</span>
+                        <span className='header__rightContainer__navItem'>Clients</span>
+                        <span className='header__rightContainer__navItem'>Work with us</span>
                 </div>
             </div>
         </div>

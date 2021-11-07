@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect x="0" y="0" width="1000" height="500"
+  fill="#3f3d56" />
+  <circle fill="#fff" cx="96.238" cy="201.331" r="3" class="triangle-float1"/>
+  <circle fill="#fff" cx="46" cy="321" r="4" class="triangle-float2"/>
+  <circle fill="#fff" cx="500" cy="200" r="1" class="triangle-float3"/>
+  <circle fill="#fff" cx="800" cy="250" r="3" class="triangle-float1"/>
+  <circle fill="#fff" cx="900" cy="100" r="2" class="triangle-float2"/>
+  <circle fill="#fff" cx="850" cy="110" r="3" class="triangle-float3"/>
+  <circle fill="#fff" cx="860" cy="200" r="5" class="triangle-float1"/>
+  <circle fill="#fff" cx="88" cy="250" r="1" class="triangle-float2"/>
+  <circle fill="#fff" cx="480" cy="100" r="4" class="triangle-float2"/>
+  <circle fill="#fff" cx="360" cy="80" r="3" class="triangle-float1"/>
+  <circle fill="#fff" cx="265" cy="200" r="5" class="triangle-float2"/>
+  <circle fill="#fff" cx="88" cy="11" r="1" class="triangle-float3"/>
+  <circle fill="#fff" cx="98" cy="23" r="4" class="triangle-float1"/>
+  <circle fill="#fff" cx="22" cy="80" r="2" class="triangle-float2"/>
+  <circle fill="#fff" cx="111" cy="150" r="5" class="triangle-float3"/>
+  <circle fill="#fff" cx="63" cy="433" r="2" class="triangle-float1"/>
+  <circle fill="#fff" cx="88" cy="385" r="1" class="triangle-float2"/>
+  <circle fill="#fff" cx="165" cy="352" r="4" class="triangle-float3"/>
+  <circle fill="#fff" cx="198" cy="370" r="2" class="triangle-float1"/>
+  <circle fill="#fff" cx="111" cy="150" r="5" class="triangle-float2"/>
+  <circle fill="#fff" cx="600" cy="300" r="3" class="triangle-float3"/>
+  <circle fill="#fff" cx="711" cy="420" r="5" class="triangle-float1"/>
+  <circle fill="#fff" cx="660" cy="333" r="2" class="triangle-float2"/>
+  <circle fill="#fff" cx="690" cy="50" r="3" class="triangle-float3"/>
+
+  <circle fill="#6c63ff" cx="920" cy="200" r="8"/>
+  <circle fill="#ff6584" cx="213" cy="450" r="15"/>
+
+  <circle fill="#fff" cx="20" cy="200" r="1" class="shooting-star1"/>
+  
+  <defs>
+        <style>
+                @keyframes float1 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(-5px, 0)}
+                    100%{transform: translate(0, 0)}
+                }
+
+                .triangle-float1 {
+                    animation: float1 5s infinite;
+                }
+
+                @keyframes float2 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(-2px, -5px)}
+                    100%{transform: translate(0, 0)}
+                }
+
+                .triangle-float2 {
+                    animation: float2 4s infinite;
+                }
+
+                @keyframes float3 {
+                    0%{transform: translate(0, 0)}
+                    50%{transform: translate(0, -10px)}
+                    100%{transform: translate(0, 0)}
+                }
+
+                .triangle-float3 {
+                    animation: float3 6s infinite;
+                }
+
+                .triangle-float3 {
+                    animation: float3 6s infinite;
+                }
+
+                @keyframes particleAnimation
+                {
+                    from {
+                        transform: translate(0px, 200px);
+                    }
+                    to {
+                        transform: translate(calc( 100% + 100px ), 20px);
+                    }
+                }
+                .shooting-star1{
+                    animation: particleAnimation 10s linear infinite;
+                    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100%); 
+                    width: 100px;
+                }
+        </style>
+    </defs>
+</svg>
