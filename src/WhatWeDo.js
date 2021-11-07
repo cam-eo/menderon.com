@@ -10,8 +10,8 @@ function WhatWeDo() {
         <div className='whatWeDo__container'>
             <h1 className='whatWeDo__heading'>What We Do</h1>
             <div className='whatWeDo'>
-                <img className='whatWeDo__background' src={spaceBackground} />
-                <img className='whatWeDo__redMoon' src={redMoon} />
+                <img className='whatWeDo__background' src={spaceBackground} alt=""/>
+                <img className='whatWeDo__redMoon' src={redMoon} alt=""/>
                 <div className='whatWeDo__itemRowOne'>
                     <div className='whatWeDo__itemRowOne__item'>
                         <img className='whatWeDo__itemRowOne__item__background' src={hexagonRed} alt='hexagon'/>

@@ -3,6 +3,8 @@ import './Clients.css'
 import kanduaLogo from './kandua_logo.svg'
 import upworkLogo from './upwork_logo.svg'
 import fiverrLogo from './fiverr_logo.svg'
+import boschLogo from './bosch_logo.svg'
+import ktmLogo from './ktm_logo.svg'
 
 function Clients() {
     return (
@@ -11,21 +13,21 @@ function Clients() {
                 <h1 className='clients__header'>Our Clients</h1>
                 <div className='clients__itemRow1'>
                     <div className='clients__itemRow1__item'>
-                        <img src={kanduaLogo} />
+                        <img src={kanduaLogo} alt='Kandua'/>
                     </div>
                     <div className='clients__itemRow1__item'>
-                        <img src={upworkLogo} />
+                        <img src={upworkLogo} alt='Upwork'/>
                     </div>
                     <div className='clients__itemRow1__item'>
-                        <img src={fiverrLogo} />
+                        <img src={fiverrLogo} alt='Fiverr'/>
                     </div>
                 </div>
                 <div className='clients__itemRow2'>
                     <div className='clients__itemRow2__item'>
-                        Client
+                        <img src={boschLogo} alt='Bosch'/>
                     </div>
                     <div className='clients__itemRow2__item'>
-                        Client
+                        <img src={ktmLogo} alt='KTM'/>
                     </div>
                 </div>
             </div>
