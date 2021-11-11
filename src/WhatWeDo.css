@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .whatWeDo{
@@ -182,4 +183,64 @@
     position: absolute;
     max-width: 200px;
     transform: translate(300px, 120px);
+}
+
+@media screen and (max-width: 1080px){
+    .whatWeDo{
+        width: 100%;
+    }
+
+    .whatWeDo__background{
+        width: 90%;
+    }
+
+    .whatWeDo__redMoon{
+        max-width: 17vw;
+        transform: translate(30vw, 10vw);
+    }
+
+    .whatWeDo__itemRowOne{
+        transform: translate(0, 0.5vw);
+    }
+
+    .whatWeDo__itemRowTwo{
+        transform: translate(-7vw, -1vw);
+    }
+
+    .whatWeDo__itemRowThree{
+        transform: translate(-7vw, -2.5vw);
+    }
+
+    .whatWeDo__itemRowOne__item{
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .whatWeDo__itemRowTwo__item{
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .whatWeDo__itemRowThree__item{
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .whatWeDo__itemRowOne__item__background{
+        width: 98%;
+    }
+
+    .whatWeDo__itemRowTwo__item__background{
+        width: 98%;
+    }
+
+    .whatWeDo__itemRowThree__item__background{
+        width: 98%;
+    }
+
+    span{
+        font-size: 1.5vw;
+        width: 50%;
+    }
+    
 }

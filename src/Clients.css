@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     flex-direction: column;
+    width: 100%;
 }
 
 .clients{
@@ -26,7 +26,6 @@
 
 .clients__itemRow1{
     display: flex;
-    
 }
 
 .clients__itemRow1__item{
@@ -74,3 +73,31 @@ img{
     border: 5px solid #3f3d56;
 }
 
+@media screen and (max-width: 1080px){
+    .clients__itemRow1__item{
+        width: 25%;
+    }
+    
+    .clients__itemRow1{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 860px){
+
+    .clients__itemRow2{
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .clients__itemRow2__item{
+        width: 45%;
+    }
+
+    img{
+        width: 20vw;
+    }
+}

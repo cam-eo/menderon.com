@@ -18,7 +18,6 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-    /* background-color: burlywood; */
 }
 
 .aboveTheFold__leftContainer__splashBackground{
@@ -31,7 +30,6 @@
     position: absolute;
     object-fit: contain;
     max-width: 25em;
-    /* transition: transform 1s ease-in; */
 }
 
 .aboveTheFold__leftContainer__stars2{
@@ -65,4 +63,24 @@
 
 .aboveTheFold__rightContainer__subline__highlight{
     color: #6c63ff; 
+}
+
+@media screen and (max-width: 1130px){
+
+    .aboveTheFold{
+        width: 80%;
+    }
+
+    .aboveTheFold__leftContainer__stars1{
+        max-width: 35%;
+    }
+    
+    .aboveTheFold__leftContainer__stars2{
+        max-width: 35%;
+    }
+    
+    .aboveTheFold__leftContainer__lostMan{
+
+        max-width: 25em;
+    }
 }
