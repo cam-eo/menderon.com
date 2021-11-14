@@ -21,7 +21,6 @@
     font-weight: 500;
     width: 100%;
     justify-self: flex-start;
-    padding-left: 50px;
 }
 
 .clients__itemRow1{
@@ -82,6 +81,11 @@ img{
         align-items: center;
         justify-content: center;
         width: 100%;
+    }
+
+    .clients__header{
+        width: 90%;
+        /* padding-left: 20px; */
     }
 }
 

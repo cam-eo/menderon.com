@@ -66,6 +66,7 @@
     flex-direction: column;
     margin-top: 25px;
     margin-bottom: 25px;
+    width: 70%;
 }
 
 .workwithus__rightContainer__form__label {
@@ -87,13 +88,8 @@
     color: white;
 }
 
-/* .workwithus__message > span{
-    font-size: 1.5vw;
-} */
-
 .workwithus__rightContainer__form__input{
     height: 35px;
-    width: 300px;
     border-radius: 10px;
     border: 1px solid #fff;
     box-sizing: border-box;
@@ -153,5 +149,9 @@ button:focus {
     .workwithus{
         min-height: auto;
         padding-bottom: 20px;
+    }
+
+    .workwithus__rightContainer__form__input{
+        width: 100%;
     }
 }

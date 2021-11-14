@@ -14,7 +14,7 @@
     flex-direction: column;
     max-width: 1000px;
     width: 1000px;
-    padding-top: 30px;
+    padding-top: 20px;
     overflow: hidden;
 }
 
@@ -34,12 +34,9 @@
 }
 
 .whatWeDo__heading{
-    padding-top: 10px;
-    padding-bottom: 10px;
     font-weight: 500;
     max-width: 1000px;
     width: 100%;
-    padding-left: 50px;
 }
 
 .whatWeDo__itemRowOne{
@@ -241,6 +238,11 @@
     span{
         font-size: 1.5vw;
         width: 50%;
+    }
+
+    .whatWeDo__heading{
+        width: 90%;
+        max-width: auto;
     }
     
 }
