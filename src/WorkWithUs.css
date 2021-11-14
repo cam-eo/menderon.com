@@ -7,6 +7,7 @@
     background-color: #3f3d56;
     width: 100%;
     min-height: 250px;
+    padding-bottom: 20px;
 }
 
 .workwithus__header{
@@ -77,16 +78,18 @@
     color: #ff6584;
     padding-left: 4px;
     padding-right: 4px;
+    width: fit-content;
 }
 
 .workwithus__message{
     display: flex;
+    width: fit-content;
     color: white;
 }
 
-.workwithus__message > span{
+/* .workwithus__message > span{
     font-size: 1.5vw;
-}
+} */
 
 .workwithus__rightContainer__form__input{
     height: 35px;
@@ -135,4 +138,20 @@ button:focus {
 
 .workwithus__rightContainer__form__closeContainer__close{
     cursor: pointer;
+}
+
+.workwithus__message__nowrap{
+    white-space: nowrap;
+    width: fit-content;
+}
+
+@media screen and (max-width: 1130px){
+    .workwithus__message > span{
+        font-size: 1.5vw;
+    }
+
+    .workwithus{
+        min-height: auto;
+        padding-bottom: 20px;
+    }
 }

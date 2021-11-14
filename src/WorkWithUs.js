@@ -37,15 +37,15 @@ function WorkWithUs() {
                 <div className='workwithus__leftContainer'>
                     <h1 className='workwithus__header'>Work with us</h1>
                     <div className='workwithus__message'>
-                        <span>We love </span>
+                        <span className='workwithus__message__nowrap'>We love </span>
                             <span className='workwithus__message__highlight'>#tech</span>
-                            as much (or maybe a bit more) than our clients.
+                            <span className='workwithus__message__nowrap'>as much (or maybe a bit more) than our clients.</span>
                     </div>
                     <div className='workwithus__message'>
-                        <span>Let us bring your project to life together.
+                        <span>
                             <br />
                             <br />
-                            If you didn't notice yet, there's a buttom on the right ;)
+                            Let us bring your project to life together. If you didn't notice yet, there's a buttom on the right ;)
                         </span>
                     </div>
                 </div>

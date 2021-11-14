@@ -23,7 +23,6 @@
 .aboveTheFold__leftContainer__splashBackground{
     object-fit: contain;
     max-width: 80%;
-    /* margin: 80px; */
 }
 
 .aboveTheFold__leftContainer__stars1{
@@ -71,18 +70,23 @@
         width: 80%;
     }
 
+    .aboveTheFold__leftContainer__splashBackground{
+        object-fit: contain;
+        min-width: 80%;
+    }
+    
     .aboveTheFold__leftContainer__stars1{
-        max-width: 35%;
+        min-width: 40%;
     }
     
     .aboveTheFold__leftContainer__stars2{
-        max-width: 35%;
+        min-width: 40%;
     }
     
     .aboveTheFold__leftContainer__lostMan{
-
-        max-width: 25em;
+        min-width: 40%;
     }
+    
 
     .aboveTheFold__rightContainer__headline{
         font-size: 5vw;
@@ -94,5 +98,10 @@
 
     .aboveTheFold{
         width: 100%;
+    }
+
+    .aboveTheFold__rightContainer{
+        padding-left: 30px;
+        
     }
 }
