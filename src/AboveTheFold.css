@@ -23,7 +23,7 @@
 .aboveTheFold__leftContainer__splashBackground{
     object-fit: contain;
     max-width: 80%;
-    margin: 80px;
+    /* margin: 80px; */
 }
 
 .aboveTheFold__leftContainer__stars1{
@@ -82,5 +82,17 @@
     .aboveTheFold__leftContainer__lostMan{
 
         max-width: 25em;
+    }
+
+    .aboveTheFold__rightContainer__headline{
+        font-size: 5vw;
+    }
+
+    .aboveTheFold__rightContainer__subline{
+        font-size: 3vw;
+    }
+
+    .aboveTheFold{
+        width: 100%;
     }
 }
